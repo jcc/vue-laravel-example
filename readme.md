@@ -1,6 +1,6 @@
 ## Vue - Laravel - Example
 
-Vue - Laravel - Example is a simple example to set `Vue 2.0` with `Laravel 5.1`.
+Vue - Laravel - Example is a simple example to set `Vue v2.0.0 - rc.2` with `Laravel 5.2`.
 
 ## Install
 

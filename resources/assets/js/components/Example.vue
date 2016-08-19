@@ -14,12 +14,12 @@
 <script>
   export default{
     data () {
-      return {
-        msg: 'Vue - Laravel - Example',
-        author: 'Jiajian Chan',
-        email: 'changejian@gmail.com'
-      }
+    return {
+      msg: 'Vue 2.0 - Laravel 5.2 - Example',
+      author: 'Jiajian Chan',
+      email: 'changejian@gmail.com'
     }
+  }
   }
 </script>
 
@@ -27,7 +27,6 @@
   html, body {
     height: 100%;
   }
-
   body {
     margin: 0;
     padding: 0;
@@ -36,22 +35,18 @@
     font-weight: 100;
     font-family: 'Lato';
   }
-
   .container {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
   }
-
   .content {
     text-align: center;
     display: inline-block;
   }
-
   .title {
     font-size: 96px;
   }
-
   .links > a {
     color: #636b6f;
     padding: 0 25px;

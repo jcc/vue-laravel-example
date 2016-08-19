@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/{vue_capture?}', function () {
+Route::get('/', function () {
     return view('example');
 });

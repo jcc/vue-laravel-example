@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Vue - Laravel - Example</title>
+    <meta charset="UTF-8">
+    <title>Vue 2.0 - Laravel 5.2 - Example</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div id="app"></div>
+<div id="app"></div>
 
-  <script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>

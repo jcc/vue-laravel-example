@@ -1,5 +1,5 @@
 import Vue from 'vue/dist/vue.js'
-import VueRouter from 'vue-router'
+import VueRouter from 'vue-router/dist/vue-router.common.js'
 import App from './App.vue'
 
 Vue.use(VueRouter)
@@ -14,4 +14,7 @@ const router = new VueRouter({
   ]
 })
 
-new Vue(Vue.util.extend({ router }, App)).$mount('#app')
+new Vue({
+  router,
+  render: h => h(App),
+}).$mount('#app');
